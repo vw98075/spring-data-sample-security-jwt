@@ -12,7 +12,7 @@ First,  a JWT is created with a user information: user ID and the role in the se
 Running the application:
 
 1. Sign into the application by submitting a POST request to /accounts/login with a pair of userName and password, either "user" and "user" or "admin" and "admin". You shall receive a token after a successful login. 
-2. In any consequential request, add "Authorization: Bearer <token>" in the request header.
+2. In any consequential request, add "Authorization: Bearer \<token\>" in the request header.
    
 All end-points of this application can be found on the Swagger page http://localhost:8080/swagger-ui.html
 

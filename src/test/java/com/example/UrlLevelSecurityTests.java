@@ -29,9 +29,6 @@ public class UrlLevelSecurityTests {
 
     static final MediaType APPLICATION_JSON_UTF8 = new MediaType("application", "hal+json", Charset.forName("utf8"));
 
-    @Autowired
-    AuthorRepository authorRepository;
-
     private MockMvc mockMvc;
 
     @Autowired
